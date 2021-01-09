@@ -6,5 +6,8 @@
   "repository": "https://github.com/socheatsok78/dotfiles-node.git",
   "author": "Socheat Sok <alex@socheat.net>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "@vue/cli": "^4.5.10"
+  }
 }
