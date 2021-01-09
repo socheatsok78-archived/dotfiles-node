@@ -1,0 +1,10 @@
+{
+  "name": "@socheatsok78/dotfiles-node",
+  "version": "0.0.1",
+  "description": "NodeJS Dotfiles Submodule",
+  "main": "index.js",
+  "repository": "https://github.com/socheatsok78/dotfiles-node.git",
+  "author": "Socheat Sok <alex@socheat.net>",
+  "license": "MIT",
+  "private": true
+}
