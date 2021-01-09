@@ -3222,6 +3222,11 @@ commander@^2.20.0, commander@^2.20.3, commander@^2.8.1:
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.20.3.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
   integrity sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==
 
+commander@^3.0.1:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-3.0.2.tgz#6837c3fb677ad9933d1cfba42dd14d5117d6b39e"
+  integrity sha512-Gar0ASD4BDyKC4hl4DwHqDrmvjoxWKZigVnAbn5H1owvm4CxCPdb0HQDehwNYMJpla5+M2tPmPARzhtYuwpHow==
+
 common-tags@^1.5.1:
   version "1.8.0"
   resolved "https://registry.yarnpkg.com/common-tags/-/common-tags-1.8.0.tgz#8e3153e542d4a39e9b10554434afaaf98956a937"
@@ -3332,6 +3337,11 @@ copy-descriptor@^0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/copy-descriptor/-/copy-descriptor-0.1.1.tgz#676f6eb3c39997c2ee1ac3a924fd6124748f578d"
   integrity sha1-Z29us8OZl8LuGsOpJP1hJHSPV40=
+
+copy-dir@^1.2.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/copy-dir/-/copy-dir-1.3.0.tgz#8c65130e11d8313a6ac2c0578e4c6c6f70b456ba"
+  integrity sha512-Q4+qBFnN4bwGwvtXXzbp4P/4iNk0MaiGAzvQ8OiMtlLjkIKjmNN689uVzShSM0908q7GoFHXIPx4zi75ocoaHw==
 
 core-js-compat@^3.8.0:
   version "3.8.2"
@@ -5584,6 +5594,15 @@ insight@^0.10.3:
     request "^2.88.0"
     tough-cookie "^3.0.1"
     uuid "^3.3.2"
+
+insomnia-documenter@^0.4.4:
+  version "0.4.4"
+  resolved "https://registry.yarnpkg.com/insomnia-documenter/-/insomnia-documenter-0.4.4.tgz#f90fd210d23bf4d69e26c31098fa0f1e3841119c"
+  integrity sha512-tMfX0zQgNihx4kbWQIjfk+dbYr+M3YUkkoE9URginTkd0rzveBGEkaC2Qjze2azQYUPBxY1cvya6JBphlLRVEw==
+  dependencies:
+    commander "^3.0.1"
+    copy-dir "^1.2.0"
+    mkdirp "^0.5.1"
 
 interpret@^1.0.0:
   version "1.4.0"
